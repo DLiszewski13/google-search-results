@@ -5,3 +5,216 @@
      2/26/19
 */ 
 
+/*
+    I should have reset everything to deafult with:
+        * { 
+            marign:0;
+            padding:0;
+        }
+    The top nav has a margin of 8px, which makes everything slightly off if I were to change.
+    The p and h3 elements should be fixed to margin 0, but who knows if they are truly defaulted.        
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* #### Top Nav #### */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+.left-top-nav {
+    float: left;
+}
+
+.right-top-nav {
+    float: right;
+}
+
+.links {
+    float: left;
+}
+
+#apps {
+    height: 25px;
+    width: 25px;
+    margin-top: 22px;
+    margin-left: 18px;
+    margin-right: 0px;
+}
+
+#account-letter {
+    height: 46px;
+    width: 46px;
+    margin-top: 12px;
+    margin-left: 10px;
+    margin-right: 14px;
+}
+
+#logo {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 94px;
+}
+
+input {
+    width: 626px;
+    height: 42px;
+    border-radius: 40px;
+    border: solid lightgray 1px;
+    margin-top: 12px;
+    margin-left: 28px;
+    font-size: 14px;
+    padding-left: 16px;
+}
+
+a {
+    font-size: 13px;
+    color: #5f6368;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+.all-tab {
+    color: #0062ff;
+    font-weight: bold;
+    /* border-bottom-color: blue; */
+}
+
+.all-top-nav {
+    height: 120px;
+    border-bottom: solid lightgray 1px;
+}
+
+.top-top-nav {
+    height: 80px;
+}
+
+.bot-top-nav {
+    height: 40px;
+}
+
+.left-bot-nav {
+    margin-left: 130px;
+}
+
+.right-bot-nav {
+    float: right;
+    margin-right: 512px;
+}
+
+a.links {
+    margin-left: 32px;
+    margin-top: 4px;
+}
+
+/* #### Main #### */
+
+.main {
+    width: 46%;
+    margin: 0px 160px;
+}
+
+#search-speed {
+    font-size: 13px;
+    color: #5f6368;
+    margin-top: 14px;
+}
+
+/* trying to default p and h3 */
+p {
+    margin: 0;
+    font-size: 13px;
+    color: #5f6368;
+    line-height: 1.6;
+    margin-top: 4px
+}
+
+h3 {
+    margin: 0;
+    margin-bottom: 4px;
+}
+
+h3 a {
+    color: rgb(30, 30, 163);
+    font-weight: normal;
+    font-size: 18px;
+}
+
+h3 a:visited {
+    color: #609;
+}
+
+.result-links {
+    color: #006621;
+    font-size: 14px;
+}
+
+.result {
+    margin-top: 22px;
+}
+
+.google-pages {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#google-pages-img {
+    width: 92%;
+    margin-top: 28px;
+}
+
+#bot-nums {
+    margin-left: 26px;
+}
+
+#bot-nums li {
+    margin-left: 10px;
+}
+
+.nums, #next {
+    color: rgb(3, 122, 212);
+    font-size: 14px;
+}
+
+.nums:hover, #next:hover {
+    text-decoration: underline;
+}
+
+#next-para {
+    float: right;
+    margin-right: 18px;
+}
+
+/*  #### Bottom Nav #### */
+
+.all-bot-nav {
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    margin-top: 34px;
+    height: 64px;
+}
+
+.top-bot-nav {
+    margin-left: 160px;
+}
+
+.bot-bot-nav {
+    margin-top: 14px;
+    margin-left: 138px;
+}
+
+.bot-links {
+    margin-left: 22px;
+}
